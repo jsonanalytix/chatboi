@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "chatboi-83125"
+  },
+  "targets": {
+    "chatboi-83125": {
+      "hosting": {
+        "chatboi": [
+          "chatboi-83125"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
