@@ -40,3 +40,91 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  color: #646cff;
+}
+
+button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+button:disabled {
+  background-color: #4b4b4b;
+  cursor: not-allowed;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: #2a2a2a;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.new-message-form {
+  display: flex;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-top: 1px solid #333;
+}
+
+.new-message-form input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.welcome-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.welcome-container h2 {
+  color: #646cff;
+  margin-bottom: 1rem;
+}
